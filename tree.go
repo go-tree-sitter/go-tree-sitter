@@ -10,9 +10,9 @@ import (
 	"unsafe"
 
 	_ "github.com/go-tree-sitter/go-tree-sitter/include/tree_sitter"
-	_ "github.com/go-tree-sitter/go-tree-sitter/src"
-	_ "github.com/go-tree-sitter/go-tree-sitter/src/portable"
-	_ "github.com/go-tree-sitter/go-tree-sitter/src/unicode"
+	// _ "github.com/go-tree-sitter/go-tree-sitter/src"
+	// _ "github.com/go-tree-sitter/go-tree-sitter/src/portable"
+	// _ "github.com/go-tree-sitter/go-tree-sitter/src/unicode"
 )
 
 // A stateful object that this is used to produce a [Tree] based on some
