@@ -1,13 +1,18 @@
 package tree_sitter
 
 /*
-#cgo CFLAGS: -Iinclude -Isrc -std=c11 -D_POSIX_C_SOURCE=200112L -D_DEFAULT_SOURCE
+#cgo CFLAGS: -I${SRCDIR}/include -std=c11 -D_POSIX_C_SOURCE=200112L -D_DEFAULT_SOURCE
 #include <tree_sitter/api.h>
 */
 import "C"
 
 import (
 	"unsafe"
+
+	_ "github.com/go-tree-sitter/go-tree-sitter/include/tree_sitter"
+	_ "github.com/go-tree-sitter/go-tree-sitter/src"
+	_ "github.com/go-tree-sitter/go-tree-sitter/src/portable"
+	_ "github.com/go-tree-sitter/go-tree-sitter/src/unicode"
 )
 
 // A stateful object that this is used to produce a [Tree] based on some
