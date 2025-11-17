@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	. "github.com/tree-sitter/go-tree-sitter"
+	. "github.com/go-tree-sitter/go-tree-sitter"
 )
 
 type testEdit struct {

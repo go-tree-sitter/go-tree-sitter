@@ -21,7 +21,7 @@ package main
 import (
     "fmt"
 
-    tree_sitter "github.com/tree-sitter/go-tree-sitter"
+    tree_sitter "github.com/go-tree-sitter/go-tree-sitter"
     tree_sitter_javascript "github.com/tree-sitter/tree-sitter-javascript/bindings/go"
 )
 
@@ -59,7 +59,7 @@ For more information on other platforms, see the [purego documentation](https://
 package main
 
 import (
-	tree_sitter "github.com/tree-sitter/go-tree-sitter"
+	tree_sitter "github.com/go-tree-sitter/go-tree-sitter"
 	"github.com/ebitengine/purego"
 )
 
